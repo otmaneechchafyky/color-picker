@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    height: 10vh;
+    width: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 2vh;
+    box-shadow: 0px 5px 5px 0px rgb(179, 178, 178);
+-webkit-box-shadow: 0px 11px 5px 0px rgba(179,178,178,0.75);
+-moz-box-shadow: 0px 11px 5px 0px rgba(179,178,178,0.75);
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 750;
+    color: #39CCCC;
+    padding-right: 18vw;
+    letter-spacing: 5px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+ul li {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+    padding-right: 50px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    color: #39CCCC;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .copyme {
+    background-color: black;
+    width: 45vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+ .btn {
+    width: 13vw;
+    height: 12vh;
+    margin-top: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-color: black;
+    color: #39CCCC;
+    border: 1px solid #39CCCC;
+    border-radius: 4px;
+ }
+
+ .hexColor {
+    padding-left: 20px;
+ }
+
+ .btn:hover {
+    background-color: #39CCCC;
+    color: black;
+    cursor: pointer;
+ }
